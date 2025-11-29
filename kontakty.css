@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightskyblue;
+}
+
+.top {
+    background-color: burlywood;
+    border: 10px solid rgb(182, 106, 7);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Hledat{
+    width: 150px;
+    height: 30px;
+    background-color: bisque;
+    border-radius: 20px;
+    border: 5px solid grey;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+}
+.search{
+    margin: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.link a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.main-content {
+    padding: 40px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.company-info {
+    background-color: burlywood;
+    border: 10px solid rgb(182, 106, 7);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.company-info h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.team-section {
+    background-color: burlywood;
+    border: 10px solid rgb(182, 106, 7);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.team-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-member {
+    background-color: bisque;
+    border: 5px solid rgb(182, 106, 7);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: rgb(182, 106, 7);
+}
+
+.team-member p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.team-member a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.team-member a:hover {
+    color: rgb(182, 106, 7);
+}
